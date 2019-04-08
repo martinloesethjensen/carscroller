@@ -1,4 +1,4 @@
-package dk.kea.androidgame.martin.carscroller.carscroller
+package dk.kea.androidgame.martin.carscroller.carscroller.screen
 
 import android.graphics.Bitmap
 import dk.kea.androidgame.martin.carscroller.engine.core.GameEngine
@@ -8,8 +8,8 @@ import dk.kea.androidgame.martin.carscroller.engine.core.Screen
 class MainMenuScreen(gameEngine: GameEngine) : Screen(gameEngine) {
     var background: Bitmap = gameEngine.loadBitmap("carscroller/xcarbackground.png")
     var startGame: Bitmap = gameEngine.loadBitmap("carscroller/xstartgame.png")
-    internal var passedTime = 0f
-    internal var startTime: Long = 0
+    private var passedTime = 0f
+    private var startTime: Long = 0
 
     init {
         startTime = System.nanoTime()
