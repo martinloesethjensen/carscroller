@@ -1,8 +1,8 @@
 package dk.kea.androidgame.martin.carscroller.carscroller
 
+import dk.kea.androidgame.martin.carscroller.`my-first-game-engine`.engine.core.GameEngine
+import dk.kea.androidgame.martin.carscroller.`my-first-game-engine`.engine.core.Screen
 import dk.kea.androidgame.martin.carscroller.carscroller.screen.MainMenuScreen
-import dk.kea.androidgame.martin.myfirstgameengine.engine.core.GameEngine
-import dk.kea.androidgame.martin.myfirstgameengine.engine.core.Screen
 
 class CarScrollerGame : GameEngine() {
 

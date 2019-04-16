@@ -1,13 +1,12 @@
 package dk.kea.androidgame.martin.carscroller.carscroller.screen
 
 import android.util.Log
+import dk.kea.androidgame.martin.carscroller.`my-first-game-engine`.engine.core.GameEngine
+import dk.kea.androidgame.martin.carscroller.`my-first-game-engine`.engine.core.Screen
+import dk.kea.androidgame.martin.carscroller.`my-first-game-engine`.engine.touch.TouchEvent
 import dk.kea.androidgame.martin.carscroller.carscroller.CollisionListener
 import dk.kea.androidgame.martin.carscroller.carscroller.world.World
 import dk.kea.androidgame.martin.carscroller.carscroller.world.WorldRenderer
-
-import dk.kea.androidgame.martin.myfirstgameengine.engine.core.GameEngine
-import dk.kea.androidgame.martin.myfirstgameengine.engine.core.Screen
-import dk.kea.androidgame.martin.myfirstgameengine.engine.touch.TouchEvent
 
 
 class GameScreen(gameEngine: GameEngine) : Screen(gameEngine) {

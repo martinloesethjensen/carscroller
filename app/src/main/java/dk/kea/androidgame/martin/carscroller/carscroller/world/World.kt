@@ -1,10 +1,10 @@
 package dk.kea.androidgame.martin.carscroller.carscroller.world
 
 import android.util.Log
+import dk.kea.androidgame.martin.carscroller.`my-first-game-engine`.engine.core.GameEngine
 import dk.kea.androidgame.martin.carscroller.carscroller.CollisionListener
 import dk.kea.androidgame.martin.carscroller.carscroller.model.Car
 import dk.kea.androidgame.martin.carscroller.carscroller.model.Monster
-import dk.kea.androidgame.martin.myfirstgameengine.engine.core.GameEngine
 import kotlin.random.Random
 
 class World(var gameEngine: GameEngine,
