@@ -1,6 +1,6 @@
 package dk.kea.androidgame.martin.carscroller.carscroller.world
 
-import dk.kea.androidgame.martin.carscroller.`my-first-game-engine`.engine.core.GameEngine
+import dk.kea.androidgame.martin.carscroller.engine.core.GameEngine
 
 class WorldRenderer(var gameEngine: GameEngine, var world: World) {
     var carImage = gameEngine.loadBitmap("carscroller/xbluecar2.png")
