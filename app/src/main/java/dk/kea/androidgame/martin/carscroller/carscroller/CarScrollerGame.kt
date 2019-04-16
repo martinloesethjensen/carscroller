@@ -1,10 +1,10 @@
 package dk.kea.androidgame.martin.carscroller.carscroller
 
 import dk.kea.androidgame.martin.carscroller.carscroller.screen.MainMenuScreen
-import dk.kea.androidgame.martin.carscroller.engine.core.GameEngine
-import dk.kea.androidgame.martin.carscroller.engine.core.Screen
+import dk.kea.androidgame.martin.myfirstgameengine.engine.core.GameEngine
+import dk.kea.androidgame.martin.myfirstgameengine.engine.core.Screen
 
-class CarscrollerGame : GameEngine() {
+class CarScrollerGame : GameEngine() {
 
     override fun createStartScreen(): Screen {
         music = this.loadMusic("engine/music.ogg")
