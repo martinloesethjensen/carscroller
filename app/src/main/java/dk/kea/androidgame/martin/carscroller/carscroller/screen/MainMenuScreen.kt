@@ -1,8 +1,8 @@
 package dk.kea.androidgame.martin.carscroller.carscroller.screen
 
 import android.graphics.Bitmap
-import dk.kea.androidgame.martin.carscroller.engine.core.GameEngine
-import dk.kea.androidgame.martin.carscroller.engine.core.Screen
+import dk.kea.androidgame.martin.carscroller.gameengine.engine.core.GameEngine
+import dk.kea.androidgame.martin.carscroller.gameengine.engine.core.Screen
 
 
 class MainMenuScreen(gameEngine: GameEngine) : Screen(gameEngine) {
